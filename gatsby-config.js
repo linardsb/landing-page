@@ -4,6 +4,7 @@ module.exports = {
     description: `A landing page for a health and well-being business`,
     author: `Linards Berzins`,
   },
+  plugins: [`gatsby-plugin-styled-components`],
   plugins: [
     `gatsby-plugin-react-helmet`,
     {

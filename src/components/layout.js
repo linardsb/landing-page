@@ -5,7 +5,7 @@
  */
 import React from 'react'
 import PropTypes from 'prop-types'
-import Header from './Globals/header'
+import Header from './Globals/Header'
 import './layout.css'
 
 const Layout = ({ children }) => (

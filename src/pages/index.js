@@ -1,9 +1,45 @@
 import React from 'react'
-import Layout from '../components/layout'
+import Layout from '../components/Layout'
 import SEO from "../components/seo"
 import Wawe from '../components/Globals/Wawe'
 import Card from '../components/Card'
+import Cell from '../components/Cell'
+import Section from '../components/Section'  
+
 import { graphql } from 'gatsby'
+
+import staticdata from '../../staticdata.json'
+
+import styled from 'styled-components';
+
+
+
+
+
+
+const SectionCaption = styled.p`
+  font-weight: 700;
+  font-size:19px;
+  background: linear-gradient(104deg, #182736 0%, #416991 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  text-align:center;
+`
+
+const SectionGroup = styled.div`
+  max-width: 800px;
+  margin: 0 auto 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  padding: 0 20px;
+
+  @media (max-width: 1060px) {
+    text-align: center;
+    grid-template-columns:repeat(1, 1fr); 
+  }
+`
 
 const IndexPage = () => (
   <Layout>
@@ -64,6 +100,31 @@ const IndexPage = () => (
         image={require('../images/Planes2_v2.jpg')} /> 
         </div>
     </div>
+    <div className="cta">
+      <a href="/" valign="center"><button>Receive email</button></a>
+    </div>
+ 
+    <Section 
+    image={require('../images/wallpaper4.jpg')} 
+    alt=""
+    logo={require('../images/contract.png')} 
+    title="Sign Up"
+    text="Upon sign up, we’ll ask a few simple questions so we can better 
+    understand your current level of well-being. We‘ll then mentor you on how to achieve a successful 
+    Intermittent Fasting programme (starting the fasting, breaking the fast, nutrient absorption, 
+    duration of the fast, body type fast). 
+    Importantly, this doesn’t mean reducing your calorie intake - 
+    you can still enjoy your favourite foods and we’ll offer some tasty, 
+    nutritious suggestions and simple recipes as well." />
+    
+    <SectionCaption>Features continued</SectionCaption><br></br><br></br>
+    <SectionGroup>
+    {staticdata.cells.map(cell => (
+      <Cell 
+      title={cell.title} 
+      image={cell.image} /> 
+    ))}
+    </SectionGroup>
   </Layout>
 )
 

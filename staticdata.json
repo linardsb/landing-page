@@ -1,0 +1,45 @@
+{
+    "cells": [
+        {
+            "title": "Body type feature adjustments",
+            "image": "../img/bodytype.png"
+        },
+        {
+            "title": "Track your funds spent",
+            "image": "../img/piggy.png"
+        },
+        {
+            "title": "Notfications for IF, excercises and meals",
+            "image": "../img/notif.png"
+        },
+        {
+            "title": "Free and paid memberships",
+            "image": "../img/member.png"
+        },
+        {
+            "title": "Flexible payments - pay monthly, cancel anytime",
+            "image": "../img/payment.png"
+        },
+        {
+            "title": "Option to set up daily or weekly meal planning",
+            "image": "../img/planner.png"
+        },
+        {
+            "title": "An option to upload medical records to our platform",
+            "image": "../img/upload.png"
+        },
+        {
+            "title": "Your preference to stay anonymous on platform",
+            "image": "../img/browser.png"
+        },
+        {
+            "title": "Blogposts to read up on the latest in health and tech",
+            "image": "../img/blog.png"
+        },
+        {
+            "title": "When signing up, we'll suggest immediate action to improve your wellbeing",
+            "image": "../img/signature_v2.png"
+        }
+       
+    ]
+}
