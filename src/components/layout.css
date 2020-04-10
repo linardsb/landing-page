@@ -10,9 +10,7 @@ body {
 h1 {
   font-family: 'Josefin Sans', sans-serif;
 }
-.HeroGroup p {
-  line-height: 1.5;
-}
+
 a{
   font-family: 'Josefin Sans', sans-serif;
   color: #00ccff;
@@ -33,7 +31,7 @@ a:hover {
 
 /****** HERO SECTION ****/
 .Hero {
-  background: url('../images/wallpaper2.jpg'); 
+  background: url('../images/wallpaperv2.jpg'); 
   height: 100%;
   background-size: cover;
   background-position: center;
