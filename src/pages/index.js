@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout'
-import SEO from "../components/seo"
+import SEO from '../components/Seo'
 import Wawe from '../components/Globals/Wawe'
 import Card from '../components/Card'
 import Cell from '../components/Cell'
@@ -10,7 +10,7 @@ import { graphql } from 'gatsby'
 
 import staticdata from '../../staticdata.json'
 
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 
 
@@ -24,7 +24,7 @@ const SectionCaption = styled.p`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
-  text-align:center;
+  text-align:center; 
 `
 
 const SectionGroup = styled.div`
@@ -43,7 +43,7 @@ const SectionGroup = styled.div`
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]}/>
+    <SEO title="" keywords={[`hiit`, `video lessons`, `health`, `medtech`, `meditatin`, `intermittent fasting`]}/>
     <div className="Hero">
       <div className="HeroGroup">
         <h1> A simple way to stay focused and full of energy while you work</h1>
@@ -125,6 +125,9 @@ const IndexPage = () => (
       image={cell.image} /> 
     ))}
     </SectionGroup>
+    <div className="cta">
+      <a href="/" valign="center"><button>Receive email</button></a>
+    </div>
   </Layout>
 )
 
