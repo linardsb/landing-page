@@ -121,10 +121,9 @@ const IndexPage = () => (
     <SectionGroup>
     {staticdata.cells.map(cell => (
       <Cell 
-      image={cell.image} alt=""
-      title={cell.title} />
-      ))
-    }
+      title={cell.title}
+      image={cell.image} />
+      ))}
     </SectionGroup>
     <div className="cta">
       <a href="/" valign="center"><button>Receive email</button></a>
@@ -139,6 +138,7 @@ export const query = graphql`
     site {
       siteMetadata {
         title
+        description
       }
     }
   }
