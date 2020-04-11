@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Muli');
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  margin:0;
+  font-size: 20px;
+  -webkit-font-smoothing: antialized;
+  line-height: 1.5;
+}
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+a{
+  font-family: 'Josefin Sans', sans-serif;
+  color: #00ccff;
+  font-weight: 600;
+  text-decoration: none;
+}
+a:hover {
+  color: #3399ff; 
+}
+
+.section {
+  background: url('../images/wallpaper4.jpg'); 
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position:relative;
+}
+
+/****** HERO SECTION ****/
+.Hero {
+  background: url('../images/wallpaperv2.jpg'); 
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position:relative;
+}
+
+.HeroGroup {
+  max-width: 50vmax;
+  padding: 20vh 5vw 5vh 5vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Hero h1 {
+  margin: 60px auto;
+  color: #f0f3f7;
+  font-size: 41px;
+  line-height: 1.5;
+  opacity: 0;
+  animation: HeroAnimation;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.Hero p {
+  color: rgba(240,243,247, 0.9);
+  font-size: 21px;
+  line-height: 1.5;
+  margin: 2em 4em 3em 4em;
+}
+
+.Hero a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #f0f3f7;
+  background: rgb(40, 168, 8);
+  padding: 13px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.Hero a:hover {
+  background: rgb(118, 240, 118);
+  color:#4b4d4e;
+  -webkit-transform: skew(-5deg, -5deg) rotate(5deg);
+          transform: skew(-5deg, -5deg) rotate(5deg);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  box-shadow: 1px 1px  rgba(182, 231, 184, 0.952);
+  box-shadow: 2px 2px  rgba(182, 231, 184, 0.952);
+  box-shadow: 3px 3px  rgba(182, 231, 184, 0.952);
+  box-shadow: 4px 4px  rgba(182, 231, 184, 0.952);
+}
+
+
+/*CTA*/
+
+.cta a button{
+  font-family: 'Josefin Sans', sans-serif;
+  width:211px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #f0f3f7;
+  background: rgb(40, 168, 8);
+  padding: 5px 20px 3px 20px;
+  border-radius: 1px;
+  cursor: pointer;
+  border: none;
+  vertical-align: middle;
+  line-height: 1.5;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
+
+.cta a:hover button{
+  background: rgb(118, 240, 118);
+  color:#182736;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  box-shadow: 1px 1px  rgba(182, 231, 184, 0.952);
+  box-shadow: 2px 2px  rgba(182, 231, 184, 0.952);
+  box-shadow: 3px 3px  rgba(182, 231, 184, 0.952);
+  box-shadow: 4px 4px  rgba(182, 231, 184, 0.952);
+}
+
+
+.cta {
+
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+@media  (min-width: 320px) and (max-width: 780px) {
+  .cta {
+    padding: 0px 0 0 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media  (min-width: 320px) and (max-width: 780px) {
+  .cta {
+    padding: 50px 0 0 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media  (min-width: 660px) and (max-width: 780px) {
+  .cta {
+    padding: 0px 0 0 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media  (min-width: 320px) and (max-width: 660px) {
+  .cta {
+    padding: 80px 0 0 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+/* /// CTA*/
+
+
+
+
+@media (max-width: 780px) {
+  .HeroGroup {
+    margin: 0 auto;
+    padding:150px 20px;
+  }
+
+  .Hero h1 {
+    font-size: 25px;
+  }
+  .Hero p {
+    font-size: 18px;
+    margin: 2em 2em 3em 2em;
+  }
+}
+
+@media (min-width: 1060px) {
+  .Hero p {
+    font-size: 19px;
+    margin: 2em 1em 3em 1em;
+  }
+}
+
+@keyframes HeroAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.Hero .Logos {
+  margin: 4em;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-gap: 40px;
+  justify-items: center;
+  align-items: center;
+}
+
+@media (max-width: 1600px) {
+  .Hero .Logos {
+    margin: 4em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+    justify-items: center;
+    align-items: center;
+    margin: 150px 0;
+  }
+}
+
+@media (max-width: 9900px) {
+  .Hero .Logos {
+    margin: 100px 0 200px 0;
+  }
+}
+
+
+@media (max-width: 550px) {
+  .Hero .Logos {
+    margin: 4em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+/* Cards */ 
+
+.Cards h2 {
+  margin: 50px 20px;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 700;
+  background: linear-gradient(104deg, #182736 0%, #416991 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Cards p {
+  margin: 0 auto;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.CardGroup img {
+  background-color:rgba(0, 0, 0, 0.2);
+}
+
+.IntroText {
+  width: 80%;
+  color: #182736;
+}
+
+.CardGroup {
+  margin: 50px 40px 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+  justify-items: center;
+}
+
+@media (max-width: 1380px) {
+  .CardGroup {
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+}
+
+@media (max-width: 780px) {
+  .CardGroup {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .Cards h2 {
+    margin: 50px 20px;
+    font-size: 33px;
+    text-align: center;
+    font-weight: 500;
+    color: #182736;
+  }
+  .Cards p {
+    margin: 0 auto;
+    font-size: 23px;
+    text-align: center;
+    font-weight: 500;
+    color: #182736;
+  }
+}
+@media (max-width: 660px) {
+  .CardGroup {
+    margin: 0;
+    align-content: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .Cards h2 {
+    margin: 50px 20px;
+    font-size: 29px;
+    text-align: center;
+    font-weight: 500;
+    color: #182736;
+  }
+  .Cards p {
+    margin: 0 auto;
+    padding-bottom: 2em;;
+    font-size: 19px;
+    text-align: left;
+    font-weight: 500;
+    color: #182736;
+  }
+}
+/* END Cards */ 
+.Hero svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+
+
+
+
+

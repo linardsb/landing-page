@@ -1,0 +1,75 @@
+.Card {
+    width: 300px;
+    height: 225px;
+    position: relative;
+    overflow:hidden;
+    border-radius: 20px;
+    box-shadow: 0 2px 7px rgba(0,0,0, 0.3);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    transition: 0.1s cubic-bezier(0.1, 0.4, 0.1, 1);
+}
+
+@media (max-width: 551px) {
+    .Card {
+        width: 280px;
+    }
+    .Card h3 {
+        width:250px;
+        font-size: 22px;
+        margin: 20px 0 20px 20px;
+    }
+    .Cards h2 {
+        margin: 0px 20px 20px 20px;
+        font-size: 29px;
+        text-align: center;
+        font-weight: 500;
+        color: 
+        #4b4d4e;
+    }
+}
+
+.Card:hover {
+    transform: scale(1.010, 1.010);
+    box-shadow: 0 5px 20px rgba(0,0,0, 0.5);
+}
+
+
+.Card img {
+    position: absolute;
+    top:0;
+    height:100%;
+    z-index: -1;
+    background: rgba(17, 19, 17, 0.6); 
+} 
+
+.Card h3 {
+    color:#ffffff;
+    font-size: 25px;
+    margin: 20px 0 0 20px;
+    width: 250px;
+}
+
+.Card p{
+    color: rgba(255, 255, 255)!important;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 600;
+    width: 230px;
+    align-self: end;
+    margin: 0 0 20px 20px;
+}
+
+@media (max-width: 551px) {
+    .Card p{
+        color: rgba(255, 255, 255)!important;
+        text-transform: uppercase;
+        font-size: 15px;
+        text-align: left;
+        font-weight: 600;
+        width: 230px;
+        align-self: end;
+        margin: 0 0 0px 20px;
+    }
+}
