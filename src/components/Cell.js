@@ -20,7 +20,7 @@ const CellImage = styled.div`
     @media (max-width: 1060px) {
         text-align: center;
         margin: auto;
-        
+
   }
 `
 
@@ -42,7 +42,7 @@ const CellTitle = styled.div`
 
 const Cell = props => (
     <CellGroup>
-       <CellImage image={props.image} alt=""></CellImage> 
+        <CellImage image={props.image}></CellImage>
         <CellTitle>{props.title}</CellTitle>
     </CellGroup>
 )

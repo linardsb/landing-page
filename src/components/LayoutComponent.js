@@ -8,15 +8,15 @@ import PropTypes from 'prop-types'
 import Header from './Globals/Header'
 import './Layout.css'
 
-const Layout = ({ children }) => (
+const LayoutComponent = ({ children }) => (
     <>
     <Header/>
     {children}
     </>
   )
 
-Layout.propTypes = {
+LayoutComponent.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default Layout
+export default LayoutComponent

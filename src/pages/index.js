@@ -1,10 +1,10 @@
 import React from 'react'
-import Layout from '../components/Layout'
-import SEO from '../components/Seo'
+import LayoutComponent from '../components/LayoutComponent'
+import SEO from '../components/SeoComponent'
 import Wawe from '../components/Globals/Wawe'
 import Card from '../components/Card'
 import Cell from '../components/Cell'
-import Section from '../components/Section'  
+import Section from '../components/Section'   
 
 import { graphql } from 'gatsby'
 
@@ -42,7 +42,7 @@ const SectionGroup = styled.div`
 `
 
 const IndexPage = () => (
-  <Layout>
+  <LayoutComponent>
     <SEO title="" keywords={[`hiit`, `video lessons`, `health`, `medtech`, `meditatin`, `intermittent fasting`]}/>
     <div className="Hero">
       <div className="HeroGroup">
@@ -121,14 +121,15 @@ const IndexPage = () => (
     <SectionGroup>
     {staticdata.cells.map(cell => (
       <Cell 
-      title={cell.title} 
-      image={cell.image} /> 
-    ))}
+      image={cell.image} alt=""
+      title={cell.title} />
+      ))
+    }
     </SectionGroup>
     <div className="cta">
       <a href="/" valign="center"><button>Receive email</button></a>
     </div>
-  </Layout>
+  </LayoutComponent>
 )
 
 export default IndexPage
