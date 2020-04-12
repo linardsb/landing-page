@@ -105,7 +105,7 @@ const IndexPage = () => (
     </div>
  
     <Section 
-    image={require('../images/wallpaper4.jpg')} 
+    image={require('../images/wallpaper4.png')} 
     alt=""
     logo={require('../images/contract.png')} 
     title="Sign Up"
