@@ -38,6 +38,7 @@ const SectionGroup = styled.div`
   @media (max-width: 1060px) {
     text-align: center;
     grid-template-columns:repeat(1, 1fr); 
+    margin: 0 auto 20px;
   }
 `
 
@@ -125,9 +126,6 @@ const IndexPage = () => (
       image={cell.image} />
       ))}
     </SectionGroup>
-    <div className="cta">
-      <a href="/" valign="center"><button>Receive email</button></a>
-    </div>
   </LayoutComponent>
 )
 

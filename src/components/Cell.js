@@ -41,7 +41,7 @@ const CellTitle = styled.div`
 
 const Cell = props => (
     <CellGroup>
-        <CellImage image={props.image} alt="{props.title}"></CellImage>
+        <CellImage image={props.image} alt=""></CellImage>
         <CellTitle>{props.title}</CellTitle>
     </CellGroup>
 )

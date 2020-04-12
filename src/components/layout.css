@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Muli');
 
 body {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', Helvetica, sans-serif;
   margin:0;
   font-size: 20px;
   -webkit-font-smoothing: antialized;
   line-height: 1.5;
 }
 h1 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', Helvetica, sans-serif;
 }
 
 a{
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', Helvetica, sans-serif;
   color: #00ccff;
   font-weight: 600;
   text-decoration: none;
