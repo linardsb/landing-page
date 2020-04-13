@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import { Link } from 'gatsby'
 
 class Header extends React.Component {
   constructor(props) {
@@ -28,10 +29,10 @@ class Header extends React.Component {
     return (
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
         <div className="HeaderGroup">
-          <a href="/"><img src={require('../../images/ugoki_logo.jpg')} width="100" alt=""/></a>
-          <a href="/about">About Us</a>
-          <a href="/features">Features</a>
-          <a href="/update"><button>Keep me updated</button></a>
+          <Link to="/"><img src={require('../../images/ugoki_logo.jpg')} width="100" alt=""/></Link>
+          <Link to="/about">About Us</Link>
+          <Link to="/features">Features</Link> 
+          <Link to="/contact"><button>Keep me updated</button></Link> 
         </div>
       </div>
     )

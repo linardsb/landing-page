@@ -11,14 +11,9 @@ h1 {
   font-family: 'Josefin Sans', Helvetica, sans-serif;
 }
 
-a{
-  font-family: 'Josefin Sans', Helvetica, sans-serif;
-  color: #00ccff;
-  font-weight: 600;
+a {
   text-decoration: none;
-}
-a:hover {
-  color: #3399ff; 
+  color:inherit;
 }
 
 .section {
@@ -77,7 +72,7 @@ a:hover {
 
 .Hero a:hover {
   background: rgb(118, 240, 118);
-  color:#4b4d4e;
+  color:#182736;
   -webkit-transform: skew(-5deg, -5deg) rotate(5deg);
           transform: skew(-5deg, -5deg) rotate(5deg);
   -webkit-transform-origin: center center;
@@ -91,7 +86,7 @@ a:hover {
 
 /*CTA*/
 
-.cta a button{
+.cta button {
   font-family: 'Josefin Sans', sans-serif;
   width:211px;
   height: 45px;
@@ -109,7 +104,8 @@ a:hover {
   align-items: center; /* align vertical */
 }
 
-.cta a:hover button{
+
+.cta button:hover {
   background: rgb(118, 240, 118);
   color:#182736;
   -webkit-transform-origin: center center;
@@ -122,7 +118,6 @@ a:hover {
 
 
 .cta {
-
   padding: 20px 0;
   margin: 0 auto;
   text-align: center;

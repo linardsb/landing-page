@@ -6,16 +6,10 @@ import Card from '../components/Card'
 import Cell from '../components/Cell'
 import Section from '../components/Section'   
 
+import { Link } from 'gatsby'
 import { graphql } from 'gatsby'
-
 import staticdata from '../../staticdata.json'
-
 import styled from 'styled-components'
-
-
-
-
-
 
 const SectionCaption = styled.p`
   font-weight: 700;
@@ -102,7 +96,7 @@ const IndexPage = () => (
         </div>
     </div>
     <div className="cta">
-      <a href="/" valign="center"><button>Receive email</button></a>
+      <button><Link to="/contact">Receive email</Link></button>
     </div>
  
     <Section 
