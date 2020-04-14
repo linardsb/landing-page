@@ -42,7 +42,7 @@ const IndexPage = () => (
     <div className="Hero">
       <div className="HeroGroup">
         <h1> A simple way to stay focused and full of energy while you work</h1>
-        <p>We can help you gain that extra quality time where it counts the most – with family and friends; to start a new hobby or take up on old pastime again; help get that promotion; make that business idea you thought of some time ago a reality. We do this using our own unique platform.</p>
+        <p>We can help you gain that extra quality time where it counts the most – with family and friends; to start a new hobby or take up on old pastime again; help get that promotion; make that business idea you thought of some time ago a reality. We'll help you do this using our unique platform.</p>
         <div className="Logos">
           <img src={require('../images/fasting.png')} width="70" alt=""/>
           <img src={require('../images/lemon.png')} width="76" alt=""/>

@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
+import Contact from '../components/Globals/Contact'
 
-import { Link } from 'gatsby'
+
 
 const FooterGroup = styled.div`
     background: #f0f3f7;
@@ -20,10 +21,9 @@ const Text = styled.p`
 
 const Footer = () => (
    <FooterGroup>
-       <div className="cta">
-        <button><Link to="/contact">Receive email</Link></button>
-        </div>
+    <Contact/>
        <Text>If you wish to receive more information on our product, consider signing up for updates.</Text>
+      
    </FooterGroup>
 )
 
