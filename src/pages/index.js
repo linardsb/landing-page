@@ -63,36 +63,36 @@ const IndexPage = () => (
         <Card
         title="Time saver"
         text="We'll help you to save your time"
-        image={require('../images/Planes2_v2.jpg')}
+        image={require('../images/Dark004.png')}
          /> 
         <Card
         title="Excercise planner"
         text="We'll work together to plan your fitness"
-        image={require('../images/Planes10_v2.jpg')} />
+        image={require('../images/Dark006.png')} />
         <Card
         title="Fuel for the body"
         text="You'll be able to choose a meal planner if you wish"
-        image={require('../images/Planes3_v2.jpg')} /> 
+        image={require('../images/Dark007.png')} /> 
         <Card
         title="Track your progress"
         text="Refer to the chart of your improvements"
-        image={require('../images/Planes4_v2.jpg')} /> 
+        image={require('../images/Dark008.png')} /> 
         <Card
         title="Itermittent Fasting"
         text="Science and body type based (IF) cycles"
-        image={require('../images/Planes5_v2.jpg')} /> 
+        image={require('../images/Dark009.png')} /> 
         <Card
         title="Fitness video lessons"
         text="Bite sized videos to stay in top form"
-        image={require('../images/Planes11_v2.jpg')} /> 
+        image={require('../images/Dark010.png')} /> 
         <Card
         title="Social Network"
         text="Communicate and interact with other members"
-        image={require('../images/Planes8_v2.jpg')} /> 
+        image={require('../images/dark111.png')} /> 
         <Card
         title="Research and science"
         text="Research based articles and blog posts"
-        image={require('../images/Planes2_v2.jpg')} /> 
+        image={require('../images/dark112.png')} /> 
         </div>
     </div>
     <div className="cta">
