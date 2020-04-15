@@ -21,9 +21,8 @@ const Text = styled.p`
 
 const Footer = () => (
    <FooterGroup>
+    <Text>If you wish to receive more information on our product or have any questions, consider signing up for updates.</Text>
     <Contact/>
-       <Text>If you wish to receive more information on our product, consider signing up for updates.</Text>
-      
    </FooterGroup>
 )
 

@@ -35,7 +35,7 @@ a {
 
 .HeroGroup {
   max-width: 50vmax;
-  padding: 20vh 5vw 5vh 5vw;
+  padding: 20vh 3vw 5vh 3vw;
   margin: 0 auto;
   text-align: center;
 }
@@ -163,22 +163,21 @@ a {
 @media (max-width: 780px) {
   .HeroGroup {
     margin: 0 auto;
-    padding:150px 20px;
+    padding:150px 20px 100px 20px;
   }
-
   .Hero h1 {
     font-size: 25px;
   }
-  .Hero p {
-    font-size: 18px;
-    margin: 2em 2em 3em 2em;
-  }
+  
 }
 
-@media (min-width: 1060px) {
+@media (min-width: 780px) and (max-width: 1060px) {
+
   .Hero p {
-    font-size: 19px;
-    margin: 2em 1em 3em 1em;
+    font-size: 18px;
+    margin: 0 auto;
+    padding:0px;
+    margin: 0em;
   }
 }
 
