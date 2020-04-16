@@ -33,6 +33,11 @@ a {
   position:relative;
 }
 
+.Hero svg {
+  position: absolute;
+  bottom: -10px;
+}
+
 .HeroGroup {
   max-width: 50vmax;
   padding: 20vh 3vw 5vh 3vw;
@@ -317,11 +322,7 @@ a {
   }
 }
 /* END Cards */ 
-.Hero svg {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
+
 
 
 

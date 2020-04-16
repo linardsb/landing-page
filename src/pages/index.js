@@ -5,11 +5,14 @@ import Wawe from '../components/Globals/Wawe'
 import Card from '../components/Card'
 import Cell from '../components/Cell'
 import Section from '../components/Section'   
+import Contact from '../components/Contact/Contact'
+
 
 import { Link } from 'gatsby'
 import { graphql } from 'gatsby'
 import staticdata from '../../staticdata.json'
 import styled from 'styled-components'
+
 
 const SectionCaption = styled.p`
   font-weight: 700;
@@ -53,9 +56,10 @@ const IndexPage = () => (
           <img src={require('../images/analysys.png')} width="70" alt=""/>
           <img src={require('../images/research.png')} width="70" alt=""/>
         </div>
-        <Wawe/>
       </div>
+      <Wawe/>
     </div>
+  
     <div className="Cards"> 
       <h2>Some of the goals of this product:</h2>
       <p className="IntroText">Our mobile app will be designed as a well-being, health and human performance optimisation platform. A suggestive analytics and data modelling engine will be at the core of the product, to help and advise you on your success journey, with personalised approach to your body type, suggestive meal planning, physical performance, fitness the most natural way possible.</p>
@@ -120,6 +124,7 @@ const IndexPage = () => (
       image={cell.image} />
       ))}
     </SectionGroup>
+    <Contact/>
   </LayoutComponent>
 )
 

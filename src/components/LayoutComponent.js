@@ -7,13 +7,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Header from './Globals/Header'
 import './Layout.css'
-import Footer from './Footer'
 
 const LayoutComponent = ({ children }) => (
     <>
     <Header/>
     {children}
-    <Footer/>
+   
     </>
   )
 
