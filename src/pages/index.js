@@ -102,18 +102,18 @@ const IndexPage = () => (
     <div className="cta"> 
       <button><Link to="#form-link">Receive email</Link></button>
     </div>
-    <div id="about"></div>
+    <div id="about"></div> 
     <Section
     image={require('../images/wallpaper4.png')} 
     alt=""
     logo={require('../images/ugoki2x.png')} 
     title="About"
     text="A team of professionals who see a potential and possibilities for 
-    technology we use in our everyday lives to work for our wellbeing. Our experiances vary form 
+    technology we use in our everyday lives to work for our wellbeing. Our experiences vary from 
     Health and Menthal health, to Digital marketing and Product development. We are in a constant
-    learniing process to improve our platform and deliver the latest research and news on how to optimise
+    learning process to improve our platform and deliver the latest research and news on how to optimise
     and develop your body to reach your full potential. We are in the process of developing and building our 
-    first iteration of platform. To stay in the loop, sign up for further product updates." ></Section>
+    first iteration of platform. Sign up if interested :) we'll keep you updated. "></Section>
     
     <SectionCaption id="features">Features continued</SectionCaption> <br></br><br></br><br></br><br></br>
     <SectionGroup>
