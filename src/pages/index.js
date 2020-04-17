@@ -41,7 +41,7 @@ const SectionGroup = styled.div`
 
 const IndexPage = () => (
   <LayoutComponent>
-    <SEO title="" keywords={[`hiit`, `video lessons`, `health`, `medtech`, `meditatin`, `intermittent fasting`]}/>
+    <SEO title="UGOKI" keywords={[`HIIT`, `HIIT video lessons`, `health`, `medtech`, `meditation`, `intermittent fasting`, `social network`]}/>
     <div className="Hero">
       <div className="HeroGroup">
         <h1> A simple way to stay focused and full of energy while you work</h1>
@@ -99,24 +99,23 @@ const IndexPage = () => (
         image={require('../images/dark112.png')} /> 
         </div>
     </div>
-    <div className="cta">
-      <button><Link to="/contact">Receive email</Link></button>
+    <div className="cta"> 
+      <button><Link to="#form-link">Receive email</Link></button>
     </div>
- 
-    <Section 
+    <div id="about"></div>
+    <Section
     image={require('../images/wallpaper4.png')} 
     alt=""
-    logo={require('../images/contract.png')} 
-    title="Sign Up"
-    text="Upon sign up, we’ll ask a few simple questions so we can better 
-    understand your current level of well-being. We‘ll then mentor you on how to achieve a successful 
-    Intermittent Fasting programme (starting the fasting, breaking the fast, nutrient absorption, 
-    duration of the fast, body type fast). 
-    Importantly, this doesn’t mean reducing your calorie intake - 
-    you can still enjoy your favourite foods and we’ll offer some tasty, 
-    nutritious suggestions and simple recipes as well." />
+    logo={require('../images/ugoki2x.png')} 
+    title="About"
+    text="A team of professionals who see a potential and possibilities for 
+    technology we use in our everyday lives to work for our wellbeing. Our experiances vary form 
+    Health and Menthal health, to Digital marketing and Product development. We are in a constant
+    learniing process to improve our platform and deliver the latest research and news on how to optimise
+    and develop your body to reach your full potential. We are in the process of developing and building our 
+    first iteration of platform. To stay in the loop, sign up for further product updates." ></Section>
     
-    <SectionCaption>Features continued</SectionCaption><br></br><br></br>
+    <SectionCaption id="features">Features continued</SectionCaption> <br></br><br></br><br></br><br></br>
     <SectionGroup>
     {staticdata.cells.map(cell => (
       <Cell 

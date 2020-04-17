@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Ugoki - healthy living',
+    title: 'healthy living',
     description: `A landing page for a health and well-being business`,
     author: `Linards Berzins`,
   },

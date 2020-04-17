@@ -12,7 +12,6 @@ const LayoutComponent = ({ children }) => (
     <>
     <Header/>
     {children}
-   
     </>
   )
 

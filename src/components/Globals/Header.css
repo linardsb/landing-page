@@ -25,6 +25,7 @@
 .Header a {
     color:rgba(240,243,247, 0.9);
     font-weight: 700;
+    text-align: center;
 }
 
 .Header a:hover {
@@ -36,7 +37,7 @@
     font-family: 'Josefin Sans', Helvetica, sans-serif;
     color: #f0f3f7;
     background: rgb(40, 168, 8);
-    padding: 5px 20px 3px 0px;
+    padding: 5px 0px 3px 0px;
     font-weight: 700;
     font-size: 18px;
     outline: none;
@@ -47,6 +48,7 @@
     line-height: 1.5;
     height:45px;
     width:211px;
+    text-align: center;
 }
 
 .Header button:hover {

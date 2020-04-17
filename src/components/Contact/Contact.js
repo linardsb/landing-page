@@ -4,7 +4,7 @@ import './ContactStyle.css'
 
 export default function Contact() {
     return (
-         <div className="formcontainer">
+         <div className="formcontainer" id="form-link">
             <div className="footergroup"><p>If you wish to receive more information on our product or have any questions, consider signing up for updates.</p></div>
             <form className="form" action="https://formspree.io/mnqbwlno" method="POST">
                     <label htmlFor="name">

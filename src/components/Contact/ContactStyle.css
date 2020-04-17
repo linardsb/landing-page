@@ -1,6 +1,6 @@
 
-.footergroup {
-    padding: 30px 15px 0;
+.formcontainer {
+    padding: 30px 25px 0;
 }
 
 .footergroup p{
@@ -55,37 +55,8 @@ textarea {
 .formcta {
     padding: 50px 0;
 }
- 
-/*button {
-    float: right;
-    width: calc(100% - 200px);
-    grid-column: 1 / 3;
-}
 
-.formcontainer {
-   
-}
-
-.firstname {
-   
-}
-
-.lastname {
-   
-}
-
-.email {
-    
-}
-
-
-
-
-/*background-color: #fff;
-    margin: 0 auto;
-    grid-auto-rows:auto;
-    border: none;
-    padding: 10px;
-    font-family: 'Josefin Sans', Helvetica, sans-serif;
+.formcta button{
     font-size: 16px;
-    text-align: center;*/
+}
+ 

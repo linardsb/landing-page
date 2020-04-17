@@ -35,7 +35,7 @@ a {
 
 .Hero svg {
   position: absolute;
-  bottom: -10px;
+  bottom: -8px;
 }
 
 .HeroGroup {
@@ -165,7 +165,7 @@ a {
 
 
 
-@media (max-width: 780px) {
+@media (max-width: 780px) and (max-width: 1060px){
   .HeroGroup {
     margin: 0 auto;
     padding:150px 20px 100px 20px;
@@ -177,11 +177,19 @@ a {
 }
 
 @media (min-width: 780px) and (max-width: 1060px) {
-
   .Hero p {
     font-size: 18px;
     margin: 0 auto;
     padding:0px;
+    margin: 0em;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 780px) {
+  .Hero p {
+    font-size: 17px;
+    margin: 0 auto;
+    padding:0px 10px;
     margin: 0em;
   }
 }
@@ -246,6 +254,7 @@ a {
   background: linear-gradient(104deg, #182736 0%, #416991 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding-top: 10px;
 }
 
 .Cards p {
