@@ -110,10 +110,10 @@ const IndexPage = () => (
     title="About"
     text="A team of professionals who see a potential and possibilities for 
     technology we use in our everyday lives to work for our wellbeing. Our experiences vary from 
-    Health and Menthal health, to Digital marketing and Product development. We are in a constant
+    Health and Menthal health, Fitness to Digital marketing and Product development. We are in a constant
     learning process to improve our platform and deliver the latest research and news on how to optimise
     and develop your body to reach your full potential. We are in the process of developing and building our 
-    first iteration of platform. Sign up if interested :) we'll keep you updated. "></Section>
+    first iteration of platform. Sign up if interested :) we'll keep you updated. "></Section> 
     
     <SectionCaption id="features">Features continued</SectionCaption> <br></br><br></br><br></br><br></br>
     <SectionGroup>
@@ -135,6 +135,7 @@ export const query = graphql`
       siteMetadata {
         title
         description
+        author
       }
     }
   }
