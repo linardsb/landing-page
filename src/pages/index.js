@@ -110,7 +110,7 @@ suggestive meal planning, physical performance and fitness the most natural way 
     alt=""
     logo={require('../images/ugoki2x.png')} 
     title="About"
-    text="A team of professionals who see the potential and possibilities for the
+    text="We are a team of professionals, who see the potential and possibilities for the
     technology we use in our everyday lives to work for our wellbeing. Our experiences vary from 
     Health and Mental Health, Fitness to Digital marketing and Product development. We are constantly looking at ways to improve our platform, and deliver the latest research and news on how to optimise
     and develop your body to reach your full potential. We are currently developing and building the first iteration of our platform. Please sign up if you're interested and we'll keep you updated :) "></Section> 
