@@ -45,7 +45,7 @@ const IndexPage = () => (
     <div className="Hero">
       <div className="HeroGroup">
         <h1> A simple way to stay focused and full of energy while you work</h1>
-        <p>We can help you gain that extra quality time where it counts the most – with family and friends; to start a new hobby or take up on old pastime again; help get that promotion; make that business idea you thought of some time ago a reality. We'll help you do this using our unique platform.</p>
+        <p>We can help you gain that extra quality time where it counts the most – with family and friends; to start a new hobby or take up on old pastime again; help get that promotion; make that business idea you thought of some time ago a reality. We'll help you do all this using our unique platform.</p>
         <div className="Logos">
           <img src={require('../images/fasting.png')} width="70" alt=""/>
           <img src={require('../images/lemon.png')} width="76" alt=""/>
@@ -61,33 +61,35 @@ const IndexPage = () => (
     </div>
   
     <div className="Cards"> 
-      <h2>Some of the goals of this product:</h2>
-      <p className="IntroText">Our mobile app will be designed as a well-being, health and human performance optimisation platform. A suggestive analytics and data modelling engine will be at the core of the product, to help and advise you on your success journey, with personalised approach to your body type, suggestive meal planning, physical performance, fitness the most natural way possible.</p>
+      <h2>Some of the goals of this product</h2>
+      <p className="IntroText">Our mobile app will be designed as a well-being, health and human performance optimisation platform. A suggestive analytics and data modelling engine will be at the core of the product, to help
+and advise you on your success journey, with a personalised approach to your body type,
+suggestive meal planning, physical performance and fitness the most natural way possible.</p>
       <div className="CardGroup">
         <Card
         title="Time saver"
-        text="We'll help you to save your time"
+        text="We'll help you to save time"
         image={require('../images/Dark004.png')}
          /> 
         <Card
-        title="Excercise planner"
+        title="Exercise planner"
         text="We'll work together to plan your fitness"
         image={require('../images/Dark006.png')} />
         <Card
         title="Fuel for the body"
-        text="You'll be able to choose a meal planner if you wish"
+        text="We’ll help you choose a meal planner"
         image={require('../images/Dark007.png')} /> 
         <Card
         title="Track your progress"
-        text="Refer to the chart of your improvements"
+        text="Refer to the chart to see your improvement"
         image={require('../images/Dark008.png')} /> 
         <Card
-        title="Itermittent Fasting"
+        title="Intermittent Fasting"
         text="Science and body type based (IF) cycles"
         image={require('../images/Dark009.png')} /> 
         <Card
         title="Fitness video lessons"
-        text="Bite sized videos to stay in top form"
+        text="Bite sized videos to help you stay in top form"
         image={require('../images/Dark010.png')} /> 
         <Card
         title="Social Network"
@@ -108,12 +110,10 @@ const IndexPage = () => (
     alt=""
     logo={require('../images/ugoki2x.png')} 
     title="About"
-    text="A team of professionals who see a potential and possibilities for 
+    text="A team of professionals who see the potential and possibilities for the
     technology we use in our everyday lives to work for our wellbeing. Our experiences vary from 
-    Health and Menthal health, Fitness to Digital marketing and Product development. We are in a constant
-    learning process to improve our platform and deliver the latest research and news on how to optimise
-    and develop your body to reach your full potential. We are in the process of developing and building our 
-    first iteration of platform. Sign up if interested :) we'll keep you updated. "></Section> 
+    Health and Mental Health, Fitness to Digital marketing and Product development. We are constantly looking at ways to improve our platform, and deliver the latest research and news on how to optimise
+    and develop your body to reach your full potential. We are currently developing and building the first iteration of our platform. Please sign up if you're interested and we'll keep you updated :) "></Section> 
     
     <SectionCaption id="features">Features continued</SectionCaption> <br></br><br></br><br></br><br></br>
     <SectionGroup>
